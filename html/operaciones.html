@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Operaciones</title>
+    <style>
+        body {
+            background-color: white; /* Color de fondo de la hoja en blanco */
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; /* Alinea el contenido en la parte superior */
+            align-items: center;
+            min-height: 100vh; /* Asegura que el contenido esté centrado verticalmente */
+            margin: 0;
+            padding: 0;
+        }
+
+        .content-container {
+            display: flex;
+            justify-content: center; /* Centra horizontalmente el contenido */
+            align-items: flex-start; /* Alinea el contenido en la parte superior */
+        }
+
+        .image-container {
+            text-align: center; /* Centra la imagen horizontalmente */
+        }
+
+        .image-container img {
+            max-width: 100%; /* Asegura que la imagen se ajuste al contenedor */
+        }
+
+        .text-container {
+            margin-left: 20px; /* Espacio entre la imagen y el texto */
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 400px; /* Ancho total del contenedor de botones */
+        }
+
+        .column {
+            flex: 1; /* Divide el espacio en dos columnas iguales */
+            margin: 0 10px;
+        }
+
+        .button {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            text-align: center;
+            background-color: #1875d8;
+            color: white;
+            text-decoration: none;
+            border: cornsilk;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-container">
+        <div class="image-container">
+            <img src="/imagenes/inicio.png" alt="Descripción de la imagen">
+        </div>
+        <div class="text-container">
+            <p>El banco Mundial tiene un conjunto de servicios a su disposición. Selecciones la opción de transación que desea retirar </p>
+        </div>
+    </div>
+    <div class="button-container">
+        <div class="column">
+            <a href="pagina1.html" class="button">Realizar reito</a>
+            <a href="pagina2.html" class="button">Consultar saldo</a>
+        </div>
+        <div class="column">
+            <a href="pagina3.html" class="button">Cambiar clave</a>
+            <a href="pagina4.html" class="button">Otros servicios</a>
+            <a href="Index.html" class="button">Cancelar</a>
+        </div>
+    </div>
+</body>
+</html>

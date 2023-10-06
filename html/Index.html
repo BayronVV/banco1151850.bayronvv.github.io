@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inicio</title>
+    <style>
+        body {
+            background-color: white; /* Color de fondo de la hoja en blanco */
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; /* Alinea el contenido en la parte superior */
+            align-items: center;
+            height: 100vh; 
+        }
+
+        .image-container {
+            text-align: center; /* Centra la imagen horizontalmente */
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src= "/imagenes/inicio.png" alt="Descripción de la imagen">
+    </div>
+    <p>Bienvenido al cajero del banco Mundial, para iniciar su transación haga clic en Iniciar Transacción </p>
+    <button id="abrirPaginaButton">Iniciar Transacción</button>
+
+    <script>
+        // Agregamos un evento de clic al botón
+        document.getElementById('abrirPaginaButton').addEventListener('click', function() {
+            // Reemplaza 'url_de_tu_pagina.html' con la URL de la página que deseas abrir.
+            window.location.href = 'operaciones.html';
+        });
+    </script>
+</body>
+</html>
