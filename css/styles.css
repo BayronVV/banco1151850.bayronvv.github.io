@@ -1,7 +1,7 @@
-/* Establecer el tamaño de letra en 14 píxeles */
+
 
 body {
-    background-color: white; /* Color de fondo de la hoja en blanco */
+    background-color: gray, white,gray;
     display: flex;
     flex-direction: column;
     justify-content: flex-start; /* Alinea el contenido en la parte superior */
@@ -9,7 +9,7 @@ body {
     height: 100vh; 
 }
   body {
-    background-color: white; /* Color de fondo de la hoja en blanco */
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: flex-start; /* Alinea el contenido en la parte superior */
@@ -53,6 +53,21 @@ body {
     flex: 1; /* Divide el espacio en dos columnas iguales */
     margin: 5px;
 }
+.contenedor {
+    display: flex;
+  }
+  
+  .columna-izquierda {
+    flex: 1;
+    background-color: gray; /* Color para el lado izquierdo */
+    padding: 20px;
+  }
+  
+  .columna-derecha {
+    flex: 1;
+    background-color: gray; /* Color para el lado derecho */
+    padding: 20px;
+  }
  .abrirPaginaButton{
     
     width: 10%;
@@ -77,5 +92,6 @@ body {
     border: cornsilk;
     cursor: pointer;
 }
+
   /* Puedes ajustar los estilos de los elementos adicionales según tus necesidades */
   
