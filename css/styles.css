@@ -82,7 +82,12 @@ body {
     cursor: pointer;
 }
   
- input[type="number"] {
+ #numero{
+    font-size: 20px; /* Tamaño de fuente más grande */
+    padding: 10px; /* Espaciado interior para hacerla más grande */
+}
+#numero1{
+    width: 200px;
     font-size: 20px; /* Tamaño de fuente más grande */
     padding: 10px; /* Espaciado interior para hacerla más grande */
 }
