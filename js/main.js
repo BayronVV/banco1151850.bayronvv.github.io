@@ -14,7 +14,7 @@ document.getElementById("claveActual").addEventListener("click", function() {
 document.getElementById("claveNueva").addEventListener("click", function() {
     campoActivo = this;
 });
-
+let clave=1234;
 let datos = document.querySelector("#datos")
 function validarEntrada() {
     // Obtener el valor del campo de entrada
@@ -34,6 +34,23 @@ function validarEntrada() {
     }
 }
 
+function validarContrasena() {
+    // Obtener el valor del campo de entrada
+    var entrada = document.getElementById("numero1").value;
+
+    // Convertir el valor a un número entero
+    var valor = parseInt(entrada);
+
+    // Verificar si el valor está dentro del rango
+    if (valor !== 1234) {
+       alert("contraseña incorrecta, vuelva a intentarlo");
+       datos.innerHTML=`<a href="clave.html" class="button"  onclick="validarContrasena()">Continuar</a>`
+       window.location.href = "clave.html";
+          
+    } else {
+        window.location.href = "resultado_retiro.html";
+    }
+}
 
 // document.getElementById("btn1").addEventListener("click", function() {
 //     agregarNumero(1);
