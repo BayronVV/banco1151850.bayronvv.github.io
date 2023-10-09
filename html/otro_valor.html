@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <script src="/js/main.js"></script> 
     <title>Otro Valor</title>
 </head>
 <body>
@@ -17,18 +18,18 @@
     
 
     
-    <input type="number" id="numero" name="numero" min="0" step="1">
+    <input class="numer" type="number" id="nume" name="numero" min="0" step="1">
 
     
-    <div class="button-container">
+    <div id="datos"  class="button-container">
         <div class="column">
             <a href="Index.html" class="button">Cancelar</a>
         </div>
         <div class="column"> </div>
         <div class="column">
-            <a href="clave.html" class="button">Continuar</a>
-        </div>
-            
+            <a class="button"  onclick="validarEntrada()">Continuar</a>
+    </div>
+    <p id="resultado"></p>    
 
 </body>
 </html>

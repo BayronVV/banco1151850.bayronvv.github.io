@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <script src="/js/main.js"></script> 
     <title>Introduzca su contraseña</title>
 </head>
 <body>
@@ -11,25 +12,25 @@
     </div>
     <p>digite su clave actual</p>
 
-    <input type="number" id="numero1" name="numero" min="0" step="1">
+    <input class="num"  maxlength="4" type="number" id="claveActual" name="numero">
 
     <p>digite su clave NUEVA</p>
 
-    <input type="number" id="numero1" name="numero" min="0" step="1">
+    <input class="num" maxlength="4" type="number" id="claveNueva" name="numero"  >
 
     <div class="teclado">
-        <button id="boton">1</button>
-        <button id="boton">2</button>
-        <button id="boton">3</button>
-        <button id="boton">4</button>
-        <button id="boton">5</button>
-        <button id="boton">6</button>
-        <button id="boton">7</button>
-        <button id="boton">8</button>
-        <button id="boton">9</button>
-        <button id="boton">0</button>
-        <button id="boton">*</button>
-        <button id="boton">#</button>
+        <button class="boton"id="btn1" onclick='agregarNumero1(1)'>1</button>
+        <button class="boton"id="btn2" onclick='agregarNumero1(2)'>2</button>
+        <button class="boton"id="btn3" onclick='agregarNumero1(3)'>3</button>
+        <button class="boton"id="btn4" onclick='agregarNumero1(4)'>4</button>
+        <button class="boton"id="btn5" onclick='agregarNumero1(5)'>5</button>
+        <button class="boton" id="btn6"onclick='agregarNumero1(6)'>6</button>
+        <button class="boton" id="btn7"onclick='agregarNumero1(7)'>7</button>
+        <button class="boton"id="btn8"onclick='agregarNumero1(8)'>8</button>
+        <button class="boton"id="btn9"onclick='agregarNumero1(9)'>9</button>
+        <button class="boton"id="btn0"onclick='agregarNumero1(0)'>0</button>
+        <button class="boton"id="btn*"onclick='agregarNumero1("*")'>*</button>
+        <button class="boton"id="btn#"onclick='agregarNumero1("#")'>#</button>
     </div>
 
     <div class="button-container">

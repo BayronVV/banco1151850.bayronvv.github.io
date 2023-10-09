@@ -82,14 +82,15 @@ body {
     cursor: pointer;
 }
   
- #numero{
+ .numer{
     font-size: 20px; /* Tamaño de fuente más grande */
     padding: 10px; /* Espaciado interior para hacerla más grande */
 }
-#numero1{
+.num{
     width: 200px;
     font-size: 20px; /* Tamaño de fuente más grande */
     padding: 10px; /* Espaciado interior para hacerla más grande */
+    text-align: center;
 }
 
 .teclado {
@@ -98,7 +99,7 @@ body {
     grid-gap: 5px;
     padding: 10px;
   }
-  #boton{
+  .boton{
     font-size: 24px;
     width: 50px;
     height: 50px;
